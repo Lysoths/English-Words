@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #023047;
+}
+
+.left-side {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.middle-side {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img {
+  width: 200px;
+  height: 500px;
+}
+.right-side {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.turkish-words {
+  width: 50%;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid black;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.english-words {
+  width: 50%;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid black;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.english-words:active {
+  transform: scale(0.99);
+}
+
+.turkish-words:active {
+  transform: scale(0.99);
+}
+
+.clicked {
+  background-color: #f77f00;
+}
+
+.correct {
+  background-color: #84a98c;
+}
+
+img {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+}
